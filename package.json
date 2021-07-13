@@ -1,7 +1,7 @@
 {
 	"name": "midday.ahk",
 	"version": "0.1.0",
-	"description": "A simple midday code library for AutoHotkey",
+	"description": "Converts 24-hour (military) time string to 12-hour (meridiem) time string and vice versa.",
 	"main": "export.ahk",
 	"scripts": {
 		"test": "test\\test-all.ahk"
@@ -31,6 +31,16 @@
 		"unit-testing.ahk": "github:chunjee/unit-testing.ahk"
 	},
 	"author": "Shawn Brooker",
+	"contributors": [
+		{
+			"name": "Shawn Brooker",
+			"url": "https://github.com/chunjee"
+		},
+		{
+			"name": "GitHub Copilot",
+			"url": "https://copilot.github.com"
+		}
+	],
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/Chunjee/midday.ahk/issues"
