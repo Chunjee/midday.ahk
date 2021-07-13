@@ -46,8 +46,6 @@ midday.to24("12:30 AM")
 
 ### .to24(value)
 
-### .to12(value)
-
 Converts 12-hour (meridiem) time string to 24-hour (military) time string.
 
 #### Arguments
