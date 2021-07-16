@@ -1,8 +1,8 @@
 # midday.ahk
-
 Converts 24-hour (military) time string to 12-hour (meridiem) time string and vice versa.
 
-![npm](https://img.shields.io/npm/dm/midday.ahk?style=for-the-badge)
+![https://www.npmjs.com/package/array.ahk](https://img.shields.io/npm/dm/midday.ahk?style=for-the-badge&logo=npm)
+
 
 ## Installation
 In a terminal or command line navigated to your project folder:
@@ -25,7 +25,7 @@ result := midday.to12("00:30")
 You may also review or copy the library from [./export.ahk on GitHub](https://raw.githubusercontent.com/chunjee/midday.ahk/master/export.ahk); #Incude as you would normally when manually downloading.
 
 ## API
-Including the module provides a class `midday` with two methods: `.to12` and `.to24`
+Including the package provides a class `midday` with two methods: `.to12` and `.to24`
 
 ### to12(value)
 
