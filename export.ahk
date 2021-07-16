@@ -79,14 +79,4 @@ class midday
 			return outputArray
 		}
 	}
-
-	_indexOf(param_array, param_search) {
-		param_search := format("{:U}", param_search)
-		for key, value in param_array {
-			if (value == param_search) {
-				return key
-			}
-		}
-		return -1
-	}
 }
