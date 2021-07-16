@@ -89,11 +89,4 @@ class midday
 		}
 		return -1
 	}
-
-	_checkInstance() {
-		; initialize instance if not already done
-		if (this.dict.count() == 0) {
-			this.__New()
-		}
-	}
 }

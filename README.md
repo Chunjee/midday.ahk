@@ -41,10 +41,10 @@ time (String): converted 24-hour time string to 12-hour time
 throws an error if the time string is invalid
 
 ##### Examples
-````autohotkey
+```autohotkey
 midday.to24("12:30 AM")
 ; => "00:30"
-````
+```
 
 
 ### .to24(value)
@@ -60,10 +60,10 @@ time (String): converted 24-hour time string to 12-hour time
 throws an error if the time string is invalid
 
 ##### Examples
-````autohotkey
+```autohotkey
 midday.to12("00:30")
 ; => "12:30 AM"
 
 midday.to12("0030")
 ; => "12:30 AM"
-````
+```
