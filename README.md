@@ -1,8 +1,8 @@
 # midday.ahk
-=================
 
 Converts 24-hour (military) time string to 12-hour (meridiem) time string and vice versa.
 
+![npm](https://img.shields.io/npm/dm/midday.ahk?style=for-the-badge)
 
 ## Installation
 In a terminal or command line navigated to your project folder:
