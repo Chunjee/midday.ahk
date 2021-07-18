@@ -6,7 +6,8 @@ class midday
 		; prepare
 		re := "^(([01][012])|(\d)):([012345]\d)\s?(a|p)m$"
 
-		; check
+		; create
+		; use regexp to parse input into parts
 		if (this._regexpTest(param_time, re)) {
 			parts := this._regexpExec(param_time, re)
 
@@ -28,6 +29,7 @@ class midday
 			}
 			return hour ":" parts[4]
 		}
+		; throw error if input was invalid
 		throw exception("Invalid time input: " param_time)
 	}
 
@@ -36,6 +38,7 @@ class midday
 		re := "^(([01]?\d)|(2[0123]))\D?([012345]\d)$"
 
 		; create
+		; use regexp to parse input into parts
 		if (this._regexpTest(param_time, re)) {
 			parts := this._regexpExec(param_time, re)
 			hour := parts[1]
@@ -53,13 +56,12 @@ class midday
 			}
 			return hour ":" min " " ampm
 		}
-
+		; throw error if input was invalid
 		throw exception("Invalid time input: " param_time)
 	}
 
 	_regexpTest(param_value, param_re) {
 		try {
-			; do something
 			this._regExpExec(param_value, param_re)
 		} catch error {
 			return false
